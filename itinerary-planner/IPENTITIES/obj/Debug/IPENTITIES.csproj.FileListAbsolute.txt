@@ -4,3 +4,9 @@ C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.csproj.AssemblyReference.cache
 C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.csproj.CoreCompileInputs.cache
 C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.dll
 C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.pdb
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\bin\Debug\IPENTITIES.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\bin\Debug\IPENTITIES.pdb
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\obj\Debug\IPENTITIES.csproj.AssemblyReference.cache
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\obj\Debug\IPENTITIES.csproj.CoreCompileInputs.cache
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\obj\Debug\IPENTITIES.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IPENTITIES\obj\Debug\IPENTITIES.pdb

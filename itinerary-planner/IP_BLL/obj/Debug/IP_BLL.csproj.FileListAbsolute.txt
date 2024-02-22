@@ -9,3 +9,14 @@ C:\GitHub\IP_BLL\bin\Debug\IPENTITIES.dll
 C:\GitHub\IP_BLL\bin\Debug\IPDAL.pdb
 C:\GitHub\IP_BLL\bin\Debug\IPENTITIES.pdb
 C:\GitHub\IP_BLL\obj\Debug\IP_BLL.csproj.CopyComplete
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IP_BLL.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IP_BLL.pdb
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IPDAL.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IPENTITIES.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IPDAL.pdb
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\bin\Debug\IPENTITIES.pdb
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\obj\Debug\IP_BLL.csproj.AssemblyReference.cache
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\obj\Debug\IP_BLL.csproj.CoreCompileInputs.cache
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\obj\Debug\IP_BLL.csproj.CopyComplete
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\obj\Debug\IP_BLL.dll
+C:\GitHub\itinerary-planner-app\itinerary-planner\IP_BLL\obj\Debug\IP_BLL.pdb
