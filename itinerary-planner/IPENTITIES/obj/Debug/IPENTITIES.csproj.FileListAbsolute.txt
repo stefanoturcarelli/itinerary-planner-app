@@ -1,0 +1,6 @@
+C:\GitHub\IPENTITIES\bin\Debug\IPENTITIES.dll
+C:\GitHub\IPENTITIES\bin\Debug\IPENTITIES.pdb
+C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.csproj.AssemblyReference.cache
+C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.csproj.CoreCompileInputs.cache
+C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.dll
+C:\GitHub\IPENTITIES\obj\Debug\IPENTITIES.pdb

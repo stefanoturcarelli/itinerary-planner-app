@@ -1,0 +1,9 @@
+C:\GitHub\IPDAL\bin\Debug\IPDAL.dll
+C:\GitHub\IPDAL\bin\Debug\IPDAL.pdb
+C:\GitHub\IPDAL\obj\Debug\IPDAL.csproj.AssemblyReference.cache
+C:\GitHub\IPDAL\obj\Debug\IPDAL.csproj.CoreCompileInputs.cache
+C:\GitHub\IPDAL\obj\Debug\IPDAL.dll
+C:\GitHub\IPDAL\obj\Debug\IPDAL.pdb
+C:\GitHub\IPDAL\bin\Debug\IPENTITIES.dll
+C:\GitHub\IPDAL\bin\Debug\IPENTITIES.pdb
+C:\GitHub\IPDAL\obj\Debug\IPDAL.csproj.CopyComplete
