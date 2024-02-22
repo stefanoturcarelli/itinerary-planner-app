@@ -1,3 +1,15 @@
 # Itinerary Planner Web Application
 
+## Instructions
+
+1. Run the following command to clone the repository
+    ```bash
+    git clone https://github.com/stefanoturcarelli/itinerary-planner-app.git
+    ```
+
+2. Navigate to the ItineraryPlanner directory: `...\itinerary-planner-app\itinerary-planner\ItineraryPlanner`
+
+3. Open the file `ItineraryPlanner.sln`
+
+
 [Could not find a part of the path ... bin\roslyn\csc.exe](https://stackoverflow.com/questions/32780315/could-not-find-a-part-of-the-path-bin-roslyn-csc-exe#:~:text=Too%20late%20for,been%20created%20now.)
