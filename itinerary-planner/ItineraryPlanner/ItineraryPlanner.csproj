@@ -183,6 +183,7 @@
     <Content Include="Views\Trip\CreateTripView.cshtml" />
     <Content Include="Views\Trip\EditTripView.cshtml" />
     <Content Include="Views\TripTask\Index.cshtml" />
+    <Content Include="Views\TripTask\CreateTripTask.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

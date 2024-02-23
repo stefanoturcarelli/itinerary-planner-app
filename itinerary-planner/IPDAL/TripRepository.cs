@@ -10,17 +10,12 @@ using System.Threading.Tasks;
 namespace IPDAL
 {
     /// <summary>
-    /// TripRepository is responsible for connecting to DB and performing and executing commands
+    /// TripRepository.cs connects to the database and performs CRUD operations (Stored Procedures created in SQL Server)
     /// </summary>
     public class TripRepository
     {
-        // Moving the connectionString to Connection.cs
-        //string connectionString = "Data Source=.;Initial Catalog=ItineraryPlanner;Integrated Security=True;Encrypt=False";
-
         public List<Trip> GetTrips()
         {
-            // 1. Connect to DB 
-
             List<Trip> trips = new List<Trip>();
 
             // 1. Connect to DB with the help of 'using' so that at the end, the system can destroy the connection objects
