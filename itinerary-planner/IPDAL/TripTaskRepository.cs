@@ -57,5 +57,35 @@ namespace IPDAL
 
             return tripTasks;
         }
+
+        public bool AddTripTask(TripTask tripTask)
+        {
+            using (SqlConnection conn = new SqlConnection(Connection.ConnectionString))
+            {
+                string commandText = "usp_InsertTripTask";
+                SqlCommand sqlCommand = new SqlCommand(commandText, conn);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@tripTaskId", tripTask.TripTaskId);
+                sqlCommand.Parameters.AddWithValue("@tripId", tripTask.TripId);
+                sqlCommand.Parameters.AddWithValue("@taskName", tripTask.TaskName);
+                sqlCommand.Parameters.AddWithValue("@taskDescription", tripTask.Description);
+                sqlCommand.Parameters.AddWithValue("@taskDueDate", tripTask.TaskDueDate);
+
+                conn.Open();
+                // ExecuteNonQuery is used for Insert, Update and Delete
+                int i = sqlCommand.ExecuteNonQuery();
+                conn.Close();
+
+                if (i >= 1)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
     }
 }

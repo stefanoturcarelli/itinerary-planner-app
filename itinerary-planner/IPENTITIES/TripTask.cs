@@ -15,6 +15,6 @@ namespace IPENTITIES
         public int TripId { get; set; }
         public string TaskName { get; set; }
         public string Description { get; set; }
-        public DateTime TaskDueDate { get; set; }
+        public DateTime? TaskDueDate { get; set; }
     }
 }

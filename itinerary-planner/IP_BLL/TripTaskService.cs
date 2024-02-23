@@ -23,5 +23,10 @@ namespace IP_BLL
             return tripTasks;
         }
 
+        public bool AddTripTaskService(TripTask tripTask)
+        {
+            TripTaskRepository tr = new TripTaskRepository();
+            return tr.AddTripTask(tripTask);
+        }
     }
 }

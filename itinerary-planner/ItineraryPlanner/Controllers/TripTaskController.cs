@@ -34,8 +34,9 @@ namespace ItineraryPlanner.Controllers
             {
                 tripTask = new TripTask() // The reference becomes an object
                 {
-                    TripId = tripId // Set the TripId property of the object
+                    TripId = tripId, // Set the TripId property of the object
                     // The other properties are not set because the user will input them
+                    TaskDueDate = null
                 };
             }
 
@@ -45,8 +46,17 @@ namespace ItineraryPlanner.Controllers
         [HttpPost]
         public ActionResult CreateTripTask(TripTask tripTask)
         {
-            // Call Business Logic Layer AddTripTask()
-            return null;
+            TripTaskService tts = new TripTaskService();
+            bool result = tts.AddTripTaskService(tripTask);
+
+            if (result)
+            {
+                return RedirectToAction("Index", new { tripId = tripTask.TripId });
+            }
+            else
+            {
+                return View(tripTask);
+            }
         }
     }
 }
