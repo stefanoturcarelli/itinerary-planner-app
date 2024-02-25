@@ -25,8 +25,10 @@ BEGIN TRANSACTION
 	UPDATE TripTask
 	SET TripId = @TripId
 	WHERE TripTaskId = @TripTaskId
-	INSERT INTO TripTask(TaskName, TripId, TaskDescription, TaskDueDate)
-	VALUES (@TaskName, @TripId, @TaskDescription, @TaskDueDate)
+	INSERT INTO 
+		TripTask(TaskName, TripId, TaskDescription, TaskDueDate)
+	VALUES 
+		(@TaskName, @TripId, @TaskDescription, @TaskDueDate)
 COMMIT TRANSACTION
 
 END TRY
