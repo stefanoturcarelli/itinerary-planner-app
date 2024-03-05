@@ -20,9 +20,9 @@ Following the below steps fixed the error:
 2. Open Visual Studio
 3. Rebuild solution
 4. Observe that NuGet packages are restored, but bin\roslyn isn't created
-5. Unload project
-6. Reload project
-7. Rebuild solution
-8. Observe that the bin\roslyn has been created now.
+5. Open Solution Explorer. Right-click on the project. Unload project
+8. Open Solution Explorer. Right-click on the project. Reload project
+9. Rebuild solution
+10. Observe that the bin\roslyn has been created now.
 
 [Could not find a part of the path ... bin\roslyn\csc.exe](https://stackoverflow.com/questions/32780315/could-not-find-a-part-of-the-path-bin-roslyn-csc-exe#:~:text=Too%20late%20for,been%20created%20now.)
