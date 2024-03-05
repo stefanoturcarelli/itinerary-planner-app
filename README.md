@@ -17,7 +17,7 @@
 Following the below steps fixed the error:
 
 1. Delete packages folder
-2. Open Visual Studio
+2. Open Solution
 3. Rebuild solution
 4. Observe that NuGet packages are restored, but bin\roslyn isn't created
 5. Open Solution Explorer. Right-click on the project. Unload project
